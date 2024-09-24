@@ -27,8 +27,8 @@
        const div = document.createElement('div');
        div.classList.add('border', 'w-10/12', 'mx-auto', 'py-5', 'px-6');
        div.innerHTML =`
-            <p> ${donateNoakhali} Taka is Donated for famine-2024 at Noakhali, Bangladesh </P>
-            <p> ${new Date()} </p>
+            <p class = "font-bold text-xl mb-4"> ${donateNoakhali} Taka is Donated for famine-2024 at Noakhali, Bangladesh </P>
+            <p class = "text-gray-500">Date : ${new Date()} </p>
        `
        document.getElementById('history-added').appendChild(div);    
        
@@ -64,8 +64,8 @@
             const div = document.createElement('div');
             div.classList.add('border', 'w-10/12', 'mx-auto', 'py-5', 'px-6');
             div.innerHTML =`
-                    <p> ${donateFeni} Taka is Donated for famine-2024 at Feni, Bangladesh </P>
-                    <p> ${new Date()} </p>
+                    <p class = "font-bold text-2xl"> ${donateNoakhali} Taka is Donated for famine-2024 at Noakhali, Bangladesh </P>
+                    <p class = "text-gray-400">Date : ${new Date()} </p>
             `
             document.getElementById('history-added').appendChild(div);
             
@@ -100,8 +100,8 @@
             const div = document.createElement('div');
             div.classList.add('border', 'w-10/12', 'mx-auto', 'py-5', 'px-6');
             div.innerHTML =`
-                    <p> ${donation} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh </P>
-                    <p> ${new Date()} </p>
+                <p class = "font-bold text-2xl"> ${donateNoakhali} Taka is Donated for famine-2024 at Noakhali, Bangladesh </P>
+                <p class = "text-gray-400">Date : ${new Date()} </p>
             `
             document.getElementById('history-added').appendChild(div);
     })
