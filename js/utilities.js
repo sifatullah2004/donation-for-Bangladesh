@@ -19,8 +19,8 @@ function showSelectionById(id){
 }
 
 function colorSolve(id){
-    document.getElementById('show-donation-btn').classList.remove('bg-btnColor');
-    document.getElementById('show-history-btn').classList.remove('bg-btnColor');
+    document.getElementById('show-donation-btn').classList.remove('bg-btnColor', 'hover:bg-lime-200');
+    document.getElementById('show-history-btn').classList.remove('bg-btnColor', 'hover:bg-lime-200');
 
 
     document.getElementById(id).classList.add('bg-btnColor', 'hover:bg-lime-200');

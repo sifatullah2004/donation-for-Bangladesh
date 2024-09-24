@@ -60,14 +60,14 @@
             const newRequiredMoney = requiredMoney - donateFeni;
             document.getElementById('required-money').innerText = newRequiredMoney;
 
-             // added in history
-            const div = document.createElement('div');
-            div.classList.add('border', 'w-10/12', 'mx-auto', 'py-5', 'px-6');
-            div.innerHTML =`
-                    <p class = "font-bold text-2xl"> ${donateNoakhali} Taka is Donated for famine-2024 at Noakhali, Bangladesh </P>
-                    <p class = "text-gray-400">Date : ${new Date()} </p>
+              // added in history
+            const div2 = document.createElement('div');
+            div2.classList.add('border', 'w-10/12', 'mx-auto', 'py-5', 'px-6');
+            div2.innerHTML =`
+                    <p class = "font-bold text-xl mb-4"> ${donateFeni} Taka is Donated for Flood Relief in Feni,Bangladesh </P>
+                    <p class = "text-gray-500">Date : ${new Date()} </p>
             `
-            document.getElementById('history-added').appendChild(div);
+            document.getElementById('history-added').appendChild(div2);    
             
     })
 
@@ -96,13 +96,13 @@
             const newRequiredMoney = requiredMoney - donation;
             document.getElementById('required-money').innerText = newRequiredMoney;
 
-             // added in history
+            // added in history
             const div = document.createElement('div');
             div.classList.add('border', 'w-10/12', 'mx-auto', 'py-5', 'px-6');
             div.innerHTML =`
-                <p class = "font-bold text-2xl"> ${donateNoakhali} Taka is Donated for famine-2024 at Noakhali, Bangladesh </P>
-                <p class = "text-gray-400">Date : ${new Date()} </p>
+                    <p class = "font-bold text-xl mb-4"> ${donation} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh </P>
+                    <p class = "text-gray-500">Date : ${new Date()} </p>
             `
-            document.getElementById('history-added').appendChild(div);
+            document.getElementById('history-added').appendChild(div);    
     })
 
